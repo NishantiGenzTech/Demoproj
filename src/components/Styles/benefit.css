@@ -1,0 +1,88 @@
+.ourbenefits {
+    position: relative;
+    display: block;
+    padding: 240px 0 120px;
+    background: #6f5858;
+    margin-top: -120px;
+}
+.ourbenefits_bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 441px;
+    opacity: 0.03;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.ourbenefits .block-title {
+    margin-bottom: 54px;
+}
+.ourbenefits .block-title p {
+    color: #c5c9c4;
+}
+.ourbenefits .block-title h3 {
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+.ourbenefits_text {
+    margin-left: 58px;
+}
+.ourbenefits_text p {
+    margin: 0;
+    color: #c5c9c4;
+}
+
+.ourbenefits .block-title {
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .ourbenefits .block-title {
+        margin-bottom: 40px;
+    }
+}
+
+.ourbenefits1 {
+    margin-top: 60px;
+}
+
+.ourbenefits_single {
+    position: relative;
+    display: block;
+    padding: 35px 40px 34px;
+    border: 1px solid #5cd042;
+    border-radius: 5px;
+    transition: all 500ms cubic-bezier(0.98, -0.08, 0, 1.24);
+}
+
+.ourbenefits_single .icon-box span {
+    
+    font-size: 60px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.ourbenefits_single h3 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 9px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.ourbenefits_single:hover {
+    background: var(--thm-base);
+    border-color: var(--thm-base);
+}
+.ourbenefits_single:hover .icon-box span {
+    color: var(--thm-black);
+}
+.ourbenefits_single:hover h3 {
+    color: var(--thm-black);
+}
+.ourbenefits.why_choose_us_ourbenefits {
+    padding-top: 120px;
+    margin-top: 0;
+}

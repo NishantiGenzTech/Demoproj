@@ -1,0 +1,50 @@
+.agreect {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+
+    background-attachment: fixed;
+}
+
+.agreect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(57, 67, 54, 0.5);
+}
+.amiddle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.abottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+
+
+.agreect p {
+    color: var(--thm-base);
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.agreect h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 100px;
+    margin-top: 14px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.agreect1{
+    width: 100%;
+    height: 80vh;
+}

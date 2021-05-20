@@ -1,0 +1,96 @@
+.testimonials {
+  position: relative;
+  display: block;
+  background: #f5f0e9;
+  padding: 120px 0 0px;
+}
+.testimonials:before {
+  position: absolute;
+  content: "";
+  height: 210px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+}
+.testimonials .block-title {
+  margin-bottom: 42px;
+}
+
+.block-title {
+  margin-bottom: 60px;
+  margin-top: -6px;
+}
+.block-title p {
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--thm-primary);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  line-height: 24px;
+}
+.testimonialstext {
+  padding-bottom: 50px;
+}
+
+.testimonials2 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-bottom: 1px solid #f5f0e9;
+  margin-top: 106px;
+  padding-bottom: 50px;
+}
+.testimonials2 .icon_box {
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 36px;
+}
+.testimonials2 .icon_box span {
+  font-size: 60px;
+  line-height: 115px;
+}
+.arccontent h3 {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 0;
+}
+.arccontent p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 26px;
+}
+.testimonials3 {
+  position: relative;
+  display: block;
+  background: green;
+  border-radius: 5px;
+  padding: 67px 80px 80px;
+}
+
+.testimonials4 {
+  position: relative;
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-block;
+  height: 15px;
+}
+.client_thumbnail .client_title h4 {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+.client_thumbnail .client_title p {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}

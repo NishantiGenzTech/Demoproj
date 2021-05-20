@@ -1,0 +1,33 @@
+.project {
+  position: relative;
+  display: block;
+  padding: 120px 0 0px;
+  z-index: 10;
+}
+.project .block-title {
+  margin-bottom: 54px;
+}
+.project1 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.projectcard {
+    position: relative;
+    display: block;
+}
+.projectcard img {
+    width: 100%;
+    border-radius: 5px;
+}
+.cardcontant{
+    position: absolute;
+    bottom: 40px;
+    left: 49px;
+}
+.cardcontant h3 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}

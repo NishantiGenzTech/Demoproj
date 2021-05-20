@@ -1,0 +1,48 @@
+
+.service {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+    background: #d8a155;
+}
+.service1 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.service1 .content {
+    padding: 25px ;
+    background: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.text-center {
+    
+    margin-bottom: 60px;
+    margin-top: -6px;
+}
+.service1 .content h3 {
+    
+    font-size: 30px;
+    font-weight: 700;
+    padding: 25px;
+    padding-bottom: 36px;
+    margin: 0;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.service1_img {
+    position: relative;
+    display: block;
+}
+.service1_img img {
+    width: 100%;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: opacity 500ms ease, -webkit-transform 500ms ease;
+    transition: opacity 500ms ease, -webkit-transform 500ms ease;
+    transition: transform 500ms ease, opacity 500ms ease;
+    transition: transform 500ms ease, opacity 500ms ease,
+        -webkit-transform 500ms ease;
+}
